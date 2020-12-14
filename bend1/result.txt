@@ -1,0 +1,12 @@
+goos: darwin
+goarch: amd64
+BenchmarkHello-4        	34779052	        64.5 ns/op	      32 B/op	       1 allocs/op
+BenchmarkHello-4        	38514768	        64.4 ns/op	      32 B/op	       1 allocs/op
+BenchmarkThreeWords-4   	1000000000	         0.252 ns/op	       0 B/op	       0 allocs/op
+BenchmarkThreeWords-4   	1000000000	         0.253 ns/op	       0 B/op	       0 allocs/op
+BenchmarkTenWords-4     	1000000000	         0.255 ns/op	       0 B/op	       0 allocs/op
+BenchmarkTenWords-4     	1000000000	         0.252 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSearch-4       	55005469	        65.3 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSearch-4       	54762394	        67.0 ns/op	       0 B/op	       0 allocs/op
+PASS
+ok  	_/Users/vokhiem/golab/bend1	13.798s
